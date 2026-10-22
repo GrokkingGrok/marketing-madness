@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { href } from '../router.ts';
 import type { Module } from '../types.ts';
+import { BackToGameboard } from './back-to-board.tsx';
 import { Mark } from './mark.tsx';
 import { NewGameButton } from './new-game-button.tsx';
 import { Button } from './ui/button.tsx';
@@ -8,19 +9,24 @@ import { Button } from './ui/button.tsx';
 export function PlayHeader({
   module,
   edited,
+  backToBoard = false,
   children,
 }: {
   module: Module;
   edited: boolean;
+  backToBoard?: boolean;
   children?: ReactNode;
 }) {
   return (
     <header className="play-header no-print">
-      <a className="wordmark" href={href({ name: 'home' })}>
-        <Mark size={26} />
-        <span>Marketing Madness</span>
-      </a>
-      <div className="play-actions">
+      <div className="play-lead">
+        {backToBoard ? <BackToGameboard moduleId={module.id} /> : null}
+        <a className="wordmark" href={href({ name: 'home' })}>
+          <Mark size={26} />
+          <span>Marketing Madness</span>
+        </a>
+      </div>
+      <nav className="play-actions" aria-label="Module">
         {children}
         <NewGameButton moduleId={module.id} />
         <Button variant="outline" asChild>
@@ -35,7 +41,7 @@ export function PlayHeader({
         <Button variant="ghost" asChild>
           <a href={href({ name: 'home' })}>Home</a>
         </Button>
-      </div>
+      </nav>
       <span className="sr-only">{edited ? `${module.title} has edits` : module.title}</span>
     </header>
   );

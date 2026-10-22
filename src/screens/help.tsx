@@ -16,7 +16,7 @@ export function HelpScreen({ moduleId }: { moduleId: string }) {
   return (
     <div className="page" style={themeVars(theme)} data-screen="help">
       <DocumentTitle title={`How to play · ${resolved.current.title}`} />
-      <PlayHeader module={resolved.current} edited={resolved.edited} />
+      <PlayHeader module={resolved.current} edited={resolved.edited} backToBoard />
       <article className="help-copy">
         <h1>How to play</h1>
         <p>
@@ -41,7 +41,7 @@ export function HelpScreen({ moduleId }: { moduleId: string }) {
         <ul>
           <li>Arrow keys move around the board. Enter opens a tile.</li>
           <li>Space reveals the answer, then continues to the points screen.</li>
-          <li>Escape goes back one screen.</li>
+          <li>Escape goes back one screen. From Players & Scores, Print / Study, and How to play, that returns to the gameboard. The browser Back button does the same.</li>
         </ul>
         <h2>Printouts</h2>
         <p>

@@ -4,6 +4,7 @@ import { deriveTheme, themeVars } from '../lib/theme.ts';
 import { go } from '../router.ts';
 import { useEscape, useSpace } from '../hooks/use-keys.ts';
 import { useApp } from '../state/app-state.tsx';
+import { BackToGameboard } from '../components/back-to-board.tsx';
 import { DocumentTitle } from '../components/document-title.tsx';
 import { QuestionText } from '../components/question-text.tsx';
 import { Button } from '../components/ui/button.tsx';
@@ -48,11 +49,9 @@ export function QuestionScreen({ moduleId, clueId }: { moduleId: string; clueId:
         </div>
         <p className="points-pill">{found.points}</p>
         <div className="stage-actions" onClick={(event) => event.stopPropagation()}>
+          <BackToGameboard moduleId={moduleId} />
           <Button variant="outline" onClick={() => { setDraft(found.question); setEditing(true); }}>
             Edit
-          </Button>
-          <Button variant="ghost" onClick={back}>
-            Back
           </Button>
         </div>
       </header>

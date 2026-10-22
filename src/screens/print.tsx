@@ -62,7 +62,7 @@ export function PrintScreen({ moduleId }: { moduleId: string }) {
     <div className="page" style={themeVars(theme)} data-screen="print">
       <DocumentTitle title={`${title} · ${module.title}`} />
       <div className="no-print">
-        <PlayHeader module={module} edited={resolved.edited} />
+        <PlayHeader module={module} edited={resolved.edited} backToBoard />
       </div>
       <div className="print-layout">
         <aside className="print-options no-print">

@@ -12,8 +12,7 @@ export function useEscape(handler: () => void): void {
   useEffect(() => {
     function onKey(event: KeyboardEvent) {
       if (event.key !== 'Escape') return;
-      if (isTypingTarget(event.target)) return;
-      if (document.querySelector('[role="dialog"]')) return;
+      if (document.querySelector('[role="dialog"], [role="menu"]')) return;
       ref.current();
     }
     window.addEventListener('keydown', onKey);

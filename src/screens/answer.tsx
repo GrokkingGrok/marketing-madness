@@ -6,6 +6,7 @@ import { go } from '../router.ts';
 import { useEscape, useSpace } from '../hooks/use-keys.ts';
 import { useApp } from '../state/app-state.tsx';
 import { AnswerStack } from '../components/answer-stack.tsx';
+import { BackToGameboard } from '../components/back-to-board.tsx';
 import { DocumentTitle } from '../components/document-title.tsx';
 import { Button } from '../components/ui/button.tsx';
 import { Input } from '../components/ui/input.tsx';
@@ -48,6 +49,7 @@ export function AnswerScreen({ moduleId, clueId }: { moduleId: string; clueId: s
           <h1>{found.points} points</h1>
         </div>
         <div className="stage-actions" onClick={(event) => event.stopPropagation()}>
+          <BackToGameboard moduleId={moduleId} variant="outline" />
           <Button
             variant="onAccent"
             onClick={() => {

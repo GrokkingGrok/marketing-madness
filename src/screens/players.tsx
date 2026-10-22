@@ -41,7 +41,7 @@ export function PlayersScreen({ moduleId }: { moduleId: string }) {
   return (
     <div className="page" style={themeVars(theme)} data-screen="players">
       <DocumentTitle title={`Players · ${resolved.current.title}`} />
-      <PlayHeader module={resolved.current} edited={resolved.edited} />
+      <PlayHeader module={resolved.current} edited={resolved.edited} backToBoard />
       <div className="board-heading">
         <div>
           <h1>Players & Scores</h1>

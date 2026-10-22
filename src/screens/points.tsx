@@ -4,6 +4,7 @@ import { deriveTheme, themeVars } from '../lib/theme.ts';
 import { go } from '../router.ts';
 import { useEscape } from '../hooks/use-keys.ts';
 import { useApp } from '../state/app-state.tsx';
+import { BackToGameboard } from '../components/back-to-board.tsx';
 import { DocumentTitle } from '../components/document-title.tsx';
 import { NewGameButton } from '../components/new-game-button.tsx';
 import { Button } from '../components/ui/button.tsx';
@@ -28,18 +29,18 @@ export function PointsScreen({ moduleId, clueId }: { moduleId: string; clueId: s
     app.patchGame(moduleId, (current) => ({ ...current, players: recipe(current.players) }));
   }
 
-  function backToBoard() {
+  function markPlayed() {
     app.patchGame(moduleId, (current) => ({
       ...current,
       used: current.used.includes(clueId) ? current.used : [...current.used, clueId],
     }));
-    go({ name: 'board', moduleId });
   }
 
   return (
     <div className="page points-page" style={themeVars(theme)} data-screen="points">
       <DocumentTitle title={`${found.categoryName} for ${found.points} Points`} />
       <header className="points-head">
+        <BackToGameboard moduleId={moduleId} onClick={markPlayed} />
         <p className="eyebrow">{resolved.current.title}</p>
         <h1>
           {found.categoryName} for {found.points} Points
@@ -115,7 +116,7 @@ export function PointsScreen({ moduleId, clueId }: { moduleId: string; clueId: s
         ))}
       </div>
       <footer className="points-foot">
-        <Button onClick={backToBoard}>Back to Gameboard</Button>
+        <BackToGameboard moduleId={moduleId} onClick={markPlayed} />
         <Button variant="outline" onClick={() => setEditingNames((value) => !value)}>
           {editingNames ? 'Done editing names' : 'Edit names'}
         </Button>
