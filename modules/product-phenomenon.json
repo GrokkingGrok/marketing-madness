@@ -1,0 +1,392 @@
+{
+  "id": "product-phenomenon",
+  "title": "Product Phenomenon",
+  "accentColor": "#007300",
+  "categories": [
+    {
+      "id": "product-phenomenon:cat:0",
+      "name": "Branding is the Answer",
+      "clues": [
+        {
+          "id": "product-phenomenon:0:10",
+          "question": "Products that carry no brand name and that are not promoted or advertised are called _____ _____.",
+          "answers": [
+            "Generic Brands",
+            "Generic"
+          ]
+        },
+        {
+          "id": "product-phenomenon:0:20",
+          "question": "Names, designs, or symbols used to identify the goods and services that belong to a certain company are called _____.",
+          "answers": [
+            "Brands"
+          ]
+        },
+        {
+          "id": "product-phenomenon:0:30",
+          "question": "The word, group of words, letters, or numbers of a brand one can actually read and/or say is called the _____ _____.",
+          "answers": [
+            "Brand Name"
+          ]
+        },
+        {
+          "id": "product-phenomenon:0:40",
+          "question": "The distinct part of a brand's symbol, design, coloring, or lettering is called the _____ _____.",
+          "answers": [
+            "Brand Mark"
+          ]
+        },
+        {
+          "id": "product-phenomenon:0:50",
+          "question": "The legal authorization by a company with a trademarked brand to permit another company to use its brand, brand mark, or trade character is called _____ _____.",
+          "answers": [
+            "Brand Licensing"
+          ]
+        },
+        {
+          "id": "product-phenomenon:0:60",
+          "question": "A branding strategy that utilizes one or more brands to increase customer loyalty and sales for an individual brand is called a(n) _____ _____.",
+          "answers": [
+            "Co-branding Strategy"
+          ]
+        },
+        {
+          "id": "product-phenomenon:0:70",
+          "question": "A brand owned and initiated by wholesalers and retailers is known as a(n) _____ _____ _____.",
+          "answers": [
+            "Private Distributor Brand",
+            "Dealer Brand",
+            "Store Brand"
+          ]
+        },
+        {
+          "id": "product-phenomenon:0:80",
+          "question": "A brand which belongs to and is promoted by the producer is called a(n) _____ _____.",
+          "answers": [
+            "Manufacturer Brand"
+          ]
+        },
+        {
+          "id": "product-phenomenon:0:90",
+          "question": "A company that offers a combination of manufacturer, national, private, and generic brands is using _____-_____ _____.",
+          "answers": [
+            "Mixed-Brand Strategy"
+          ]
+        },
+        {
+          "id": "product-phenomenon:0:100",
+          "question": "A branding strategy that uses an existing brand name for a new or improved product within a product line is called _____ _____.",
+          "answers": [
+            "Brand Extension"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-phenomenon:cat:1",
+      "name": "It's Pronounced \"Product\"",
+      "clues": [
+        {
+          "id": "product-phenomenon:1:10",
+          "question": "The stages that a good or service encounters over and over while it is available for sale is referred to as its _____ _____ _____.",
+          "answers": [
+            "Product Life Cycle"
+          ]
+        },
+        {
+          "id": "product-phenomenon:1:20",
+          "question": "A manufacturer's decisions about ideas for new goods and services it creates in addition to all the steps from creation of the good or service to the satisfaction of customer needs is called _____ _____.",
+          "answers": [
+            "Product Planning"
+          ]
+        },
+        {
+          "id": "product-phenomenon:1:30",
+          "question": "All the goods that a company manufacturers or distributes are referred to as that company's _____ _____.",
+          "answers": [
+            "Product Mix"
+          ]
+        },
+        {
+          "id": "product-phenomenon:1:40",
+          "question": "Manufacturers take special efforts to create a particular image for a good or service through promotion, price, quality, and service. This is called _____ ______.",
+          "answers": [
+            "Product Positioning"
+          ]
+        },
+        {
+          "id": "product-phenomenon:1:50",
+          "question": "The wrapping which may provide any or all of the following: protection, identification, promotion, information, and utilization of the item being sold is called _____ _____.",
+          "answers": [
+            "Product Packaging"
+          ]
+        },
+        {
+          "id": "product-phenomenon:1:60",
+          "question": "Given a particular line of products, the make, model, brand, color, or size of any one product with that line is called a(n) _____ _____.",
+          "answers": [
+            "Product Item"
+          ]
+        },
+        {
+          "id": "product-phenomenon:1:70",
+          "question": "Goods which come from the same manufacturer and are closely related such as all the Campbell's™ Soups are part of the same _____ _____.",
+          "answers": [
+            "Product Line"
+          ]
+        },
+        {
+          "id": "product-phenomenon:1:80",
+          "question": "The total amount of product items available within a product line refers to _____ _____.",
+          "answers": [
+            "Product Depth"
+          ]
+        },
+        {
+          "id": "product-phenomenon:1:90",
+          "question": "All the different kinds of closely related goods a business sells or manufactures make up a business' _____ _____.",
+          "answers": [
+            "Product Width"
+          ]
+        },
+        {
+          "id": "product-phenomenon:1:100",
+          "question": "To change or alter a company's product(s) is called _____ _____.",
+          "answers": [
+            "Product Modification"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-phenomenon:cat:2",
+      "name": "Trading Steps",
+      "clues": [
+        {
+          "id": "product-phenomenon:2:10",
+          "question": "Personalized brand marks that take on human-like personalities or become icons are called _____ _____.",
+          "answers": [
+            "Trade Characters"
+          ]
+        },
+        {
+          "id": "product-phenomenon:2:20",
+          "question": "The development of new products involves several steps. In order to come up with ideas for new products, creativity must be evident and would most likely be step number ______.",
+          "answers": [
+            "One"
+          ]
+        },
+        {
+          "id": "product-phenomenon:2:30",
+          "question": "During this step of product development, new product ideas are either \"accepted or eliminated\" based on company objectives. In other words, during this step, ideas are _____.",
+          "answers": [
+            "Screened"
+          ]
+        },
+        {
+          "id": "product-phenomenon:2:40",
+          "question": "After a prototype, beta version, or the real product has been developed, a very expensive step that is sometimes bypassed because of the cost is _____ _____ _____.",
+          "answers": [
+            "Testing the Product"
+          ]
+        },
+        {
+          "id": "product-phenomenon:2:50",
+          "question": "A brand name, brand mark, trade character, insignia, or an emblem that is legally protected and identified with its own individuality is called a(n) _____.",
+          "answers": [
+            "Trademark"
+          ]
+        },
+        {
+          "id": "product-phenomenon:2:60",
+          "question": "If a product test markets successfully, the product will be introduced. This stage of product development is also known as _____.",
+          "answers": [
+            "Commercialization"
+          ]
+        },
+        {
+          "id": "product-phenomenon:2:70",
+          "question": "Once a definite idea for a new product has been accepted, a business proposal should be developed before _____ _____ _____.",
+          "answers": [
+            "Developing the Product"
+          ]
+        },
+        {
+          "id": "product-phenomenon:2:80",
+          "question": "The legal name that a company or corporation uses, for identification purposes, when it does business is called its _____ _____.",
+          "answers": [
+            "Trade Name"
+          ]
+        },
+        {
+          "id": "product-phenomenon:2:90",
+          "question": "The step of a Product's Life Cycle where emphasis is on promotion and production is called the _____ _____.",
+          "answers": [
+            "Introduction Stage"
+          ]
+        },
+        {
+          "id": "product-phenomenon:2:100",
+          "question": "This last step of new product development involves how the market responded to the product. This is accomplished through _____ _____ _____.",
+          "answers": [
+            "Evaluating Customer Acceptance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-phenomenon:cat:3",
+      "name": "We Guarantee It!",
+      "clues": [
+        {
+          "id": "product-phenomenon:3:10",
+          "question": "Printed information that is either attached to or on a product for the customer's convenience and/or safety is called a(n) _____.",
+          "answers": [
+            "Label"
+          ]
+        },
+        {
+          "id": "product-phenomenon:3:20",
+          "question": "A manufacturer's promise or guarantee provided to a customer about the durability or deterioration of a particular product or service is called a(n) _____.",
+          "answers": [
+            "Warranty"
+          ]
+        },
+        {
+          "id": "product-phenomenon:3:30",
+          "question": "A warranty that does not cover full replacement of a product is a(n) _____ _____.",
+          "answers": [
+            "Limited Warranty"
+          ]
+        },
+        {
+          "id": "product-phenomenon:3:40",
+          "question": "This kind of warranty may state \"If a product is found to be defective within the warranty period, it will be repaired or replaced at no cost to the original owner.\" It is called a(n) _____ _____.",
+          "answers": [
+            "Full Warranty"
+          ]
+        },
+        {
+          "id": "product-phenomenon:3:50",
+          "question": "A manufacturer's promise that is explicitly stated, in either writing or spoken word is called a(n) _____ ______.",
+          "answers": [
+            "Express Warranty"
+          ]
+        },
+        {
+          "id": "product-phenomenon:3:60",
+          "question": "A written statement added to a warranty that includes exceptions to and exclusions from the warranty is called a(n) _____.",
+          "answers": [
+            "Disclaimer"
+          ]
+        },
+        {
+          "id": "product-phenomenon:3:70",
+          "question": "States may have their own laws indicating that a warranty exists automatically; this is called a(n) _____ _____.",
+          "answers": [
+            "Implied Warranty"
+          ]
+        },
+        {
+          "id": "product-phenomenon:3:80",
+          "question": "A promise from the seller that the product sold works for exactly what it says it works for is called a(n) _____ _____ _____.",
+          "answers": [
+            "Warranty of Merchantability"
+          ]
+        },
+        {
+          "id": "product-phenomenon:3:90",
+          "question": "Several manufacturers and retailers use a marketing and selling process where one person is responsible for the profits and losses of a product line, and hence aware of customer wants and needs. This is known as _____ _____.",
+          "answers": [
+            "Category Management"
+          ]
+        },
+        {
+          "id": "product-phenomenon:3:100",
+          "question": "An implied warranty that creates action taken by the customer is called a(n) _____ _____ _____ ____ _____ _____ _____.",
+          "answers": [
+            "Warranty of Fitness for a Particular Purpose"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-phenomenon:cat:4",
+      "name": "Potluck Phenomenon",
+      "clues": [
+        {
+          "id": "product-phenomenon:4:10",
+          "question": "Goods that are no longer in demand and eventually become outdated are said to be _____.",
+          "answers": [
+            "Obsolete"
+          ]
+        },
+        {
+          "id": "product-phenomenon:4:20",
+          "question": "There is a \"Labeling Law\" which was passed in 1966 under the recommendations of the Food and Drug Administration and the Federal Trade Commission. It is the ____ ____ ____ ____ ____.",
+          "answers": [
+            "Fair Packaging and Labeling Act"
+          ]
+        },
+        {
+          "id": "product-phenomenon:4:30",
+          "question": "Diagrams created by computers that tell retailers how to display product items down both sides of an aisle at individual stores are called _____.",
+          "answers": [
+            "Planograms"
+          ]
+        },
+        {
+          "id": "product-phenomenon:4:40",
+          "question": "When a customer uses a payment plan for purchases during a month which requires the customer to pay in full within one month after the bill comes in, this is called a(n) _____ _____.",
+          "answers": [
+            "Charge Account (Regular or Thirty-Day)"
+          ]
+        },
+        {
+          "id": "product-phenomenon:4:50",
+          "question": "A store credit card where the retailer sets the credit limit and specifies when payments are due is called a(n) _____ _____.",
+          "answers": [
+            "Revolving Accounts"
+          ]
+        },
+        {
+          "id": "product-phenomenon:4:60",
+          "question": "Sales and profits increase during the points on a Product Life Cycle called the _____ _____.",
+          "answers": [
+            "Growth Stage"
+          ]
+        },
+        {
+          "id": "product-phenomenon:4:70",
+          "question": "Loans which permit payments over a 90-day period of time without charging interest are called _____ _____.",
+          "answers": [
+            "Budget Accounts",
+            "Ninety-Day Accounts"
+          ]
+        },
+        {
+          "id": "product-phenomenon:4:80",
+          "question": "During this stage of the Product Life Cycle profits may fall below costs. This is the _____ _____.",
+          "answers": [
+            "Declining Stage"
+          ]
+        },
+        {
+          "id": "product-phenomenon:4:90",
+          "question": "The stage of the Product Life Cycle when sales begin to level off or slow down is called the _____ _____.",
+          "answers": [
+            "Maturity Stage"
+          ]
+        },
+        {
+          "id": "product-phenomenon:4:100",
+          "question": "A credit arrangement that permits payment to be made over a specified period of time is referred to as a(n) _____ _____.",
+          "answers": [
+            "Installment Account"
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
